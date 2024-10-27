@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="es_ConfigMenu" xml:space="preserve"><value>Configuración</value></data>
+  <data name="ru_ErrorGameInstall" xml:space="preserve"><value>Игра некорректно установлена в этой системе.
+Попытайтесь установить игру еще раз при помощи инсталлятора (скачанного или DVD-инсталлятора).
+
+
+Если проблема остается, свяжитесь со службой технической поддержки Atari.</value></data>
+  <data name="ja_CheckingFiles" xml:space="preserve"><value>ファイルをチェックしています、お待ちください…</value></data>
+  <data name="de_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="en_CheckingFiles" xml:space="preserve"><value>Checking files, please wait...</value></data>
+  <data name="zh_GameServersStatusNOk" xml:space="preserve"><value>Game servers unavailable.</value></data>
+  <data name="zh_NatType" xml:space="preserve"><value>Your NAT type is:</value></data>
+  <data name="pl_AudioLabel" xml:space="preserve"><value>Dźwięk</value></data>
+  <data name="zh_AudioLabel" xml:space="preserve"><value>Audio</value></data>
+  <data name="fr_SaveConfig" xml:space="preserve"><value>Sauvegarder</value></data>
+  <data name="ru_SaveConfig" xml:space="preserve"><value>Сохранение</value></data>
+  <data name="en_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="fr_ErrorKeyBanned" xml:space="preserve"><value>Clé CD invalide</value></data>
+  <data name="zh_SaveConfig" xml:space="preserve"><value>Save</value></data>
+  <data name="pl_Error" xml:space="preserve"><value>Podczas aktualizacji wystąpił błąd.
+Proszę ponownie uruchomić aktualizację.
+
+Jeśli problem będzie się powtarzał, proszę skontaktować się z działem pomocy technicznej Atari.</value></data>
+  <data name="de_GameServersStatusOk" xml:space="preserve"><value>Spieleserver verfügbar.</value></data>
+  <data name="pl_Retry" xml:space="preserve"><value>Ponów</value></data>
+  <data name="de_Cancel" xml:space="preserve"><value>Streichung</value></data>
+  <data name="es_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="en_ErrorInstallFile" xml:space="preserve"><value>An error occurred while installing components.
+Please check your permissions to access files on the directory "{0}", then restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="zh_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="it_ErrorKeyBanned" xml:space="preserve"><value>CD Key non valido</value></data>
+  <data name="zh_Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="it_Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="it_Wait" xml:space="preserve"><value>Si prega di attendere...</value></data>
+  <data name="ja_ErrorMinimumRequirements" xml:space="preserve"><value>あなたのシステムは必要動作環境を満たしていません。
+
+必要動作環境：
+- システムメモリ（RAM） {0}
+- DirectX 9c WDDM対応のグラフィックボード、ビデオメモリ（VRAM） {1}、Shaders "3.0"
+
+あなたのシステム：
+- システムメモリ（RAM） {2}
+- ビデオメモリ（VRAM) {3}</value></data>
+  <data name="it_OfflineMode" xml:space="preserve"><value>Impossibile aggiornare il gioco. 
+
+Non potrai giocare online. 
+
+Creando un profilo non in linea e aggiornando in un secondo momento il gioco, sarai in grado di giocare online con questo profilo. 
+
+Desideri giocare non in linea?</value></data>
+  <data name="en_ErrorMinimumRequirements" xml:space="preserve"><value>Your system does not meet the minimum requirements.
+
+Minimum Requirements:
+- {0} of system memory (RAM)
+- DirectX 9c graphics device with WDDM, {1} of video memory (VRAM), Shaders "3.0"
+
+Your system:
+- {2} of system memory (RAM)
+- {3} of video memory (VRAM)</value></data>
+  <data name="zh_ErrorInstallFile" xml:space="preserve"><value>An error occurred while installing components.
+Please check your permissions to access files on the directory "{0}", then restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="it_CheckingFiles" xml:space="preserve"><value>Verifica dei dati, si prega di attendere...</value></data>
+  <data name="ru_UnitMegaBytes" xml:space="preserve"><value>МБ</value></data>
+  <data name="ru_NatType" xml:space="preserve"><value>Ваш NAT:</value></data>
+  <data name="fr_NatType" xml:space="preserve"><value>Votre type de NAT est: </value></data>
+  <data name="ru_Cancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="de_Wait" xml:space="preserve"><value>Bitte warten…</value></data>
+  <data name="de_Menu" xml:space="preserve"><value>Menü</value></data>
+  <data name="it_CheckingNetwork" xml:space="preserve"><value>Verifica di rete, si prega di attendere...</value></data>
+  <data name="pl_Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="pl_Wait" xml:space="preserve"><value>Prosze czekac ...</value></data>
+  <data name="pl_NatType" xml:space="preserve"><value>NAT w tym systemie:</value></data>
+  <data name="de_SaveConfig" xml:space="preserve"><value>Speichern</value></data>
+  <data name="pl_ExitMenu" xml:space="preserve"><value>Wyjdź</value></data>
+  <data name="it_ErrorRecoverFile" xml:space="preserve"><value>Si è verificato un errore critico. 
+
+Se è la prima volta che visualizzi questo messaggio, riavvia questa applicazione altrimenti reinstalla il gioco.</value></data>
+  <data name="it_ConfigMenu" xml:space="preserve"><value>Configurazione</value></data>
+  <data name="en_ConfigMenu" xml:space="preserve"><value>Configuration</value></data>
+  <data name="ja_NatType" xml:space="preserve"><value>あなたのNATタイプは：</value></data>
+  <data name="zh_Error" xml:space="preserve"><value>An error occured while updating.
+Please restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="zh_Retry" xml:space="preserve"><value>Retry</value></data>
+  <data name="en_GameServersStatusOk" xml:space="preserve"><value>Game servers available.</value></data>
+  <data name="fr_ErrorDownloadFile" xml:space="preserve"><value>Des erreurs se sont produites pendant le téléchargement de fichiers.
+S'il vous plaît vérifiez votre connexion Internet, et de relancez la mise à jour.
+
+Si le problème persiste, contactez le support technique d'Atari.</value></data>
+  <data name="zh_Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="zh_Wait" xml:space="preserve"><value>Please wait...</value></data>
+  <data name="zh_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="es_OfflineMode" xml:space="preserve"><value>No se ha podido actualizar el juego. 
+
+No es posible jugar conectado. 
+
+Si creas un perfil fuera de línea y actualizas el juego más tarde, no podrás jugar conectado con este perfil. 
+
+¿Quieres jugar desconectado?</value></data>
+  <data name="en_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="fr_CheckingFiles" xml:space="preserve"><value>Vérification des fichiers, veuillez patienter...</value></data>
+  <data name="fr_ErrorRecoverFile" xml:space="preserve"><value>Une erreur critique est survenue. 
+
+Si vous voyez ce message pour la première fois veuillez relancer l'application sinon réinstallez le jeu.</value></data>
+  <data name="it_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="ru_OfflineMode" xml:space="preserve"><value>Не удается обновить игру. 
+
+Вы не сможете играть по сети. 
+
+Если вы создадите профиль без подключения к сети и затем обновите игру, вы не сможете играть по сети, используя этот профиль. 
+
+Вы хотите сыграть без подключения к сети?</value></data>
+  <data name="it_NatType" xml:space="preserve"><value>Il vostro NAT è: </value></data>
+  <data name="ru_Retry" xml:space="preserve"><value>Еще раз</value></data>
+  <data name="ru_Error" xml:space="preserve"><value>При обновлении произошла ошибка.
+
+Начните обновление заново.
+
+Если проблема остается, свяжитесь со службой технической поддержки Atari.</value></data>
+  <data name="de_ErrorDownloadFile" xml:space="preserve"><value>Es kam zu einem Fehler beim Download.
+Überprüfen sie ihre Internetverbindung und starten sie das Update erneut.
+
+Sollte das Problem fortbestehen, wenden sie sich bitte an Ataris' technischen Kundendienst.</value></data>
+  <data name="en_ErrorDownloadFile" xml:space="preserve"><value>An error occurred while downloading files.
+Please check your Internet connection and restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="en_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="de_ErrorMinimumRequirements" xml:space="preserve"><value>Ihr System erfüllt nicht die Mindestanforderungen.
+
+Mindestanforderungen:
+- {0} Speicher (RAM)
+- DirectX 9c-Grafikgerät mit WDDM, {1} Grafikspeicher (VRAM), Shaders "3.0"
+
+Ihr System:
+- {2} Speicher (RAM)
+- {3} Grafikspeicher (VRAM)</value></data>
+  <data name="ru_ErrorDownloadFile" xml:space="preserve"><value>При загрузке файлов произошла ошибка.
+Проверьте интернет-соединение и начните обновление заново.
+
+Если проблема остается, свяжитесь со службой технической поддержки Atari.</value></data>
+  <data name="ru_UnitKiloBytes" xml:space="preserve"><value>Кб</value></data>
+  <data name="zh_GameServersStatusOk" xml:space="preserve"><value>Game servers available.</value></data>
+  <data name="fr_UnitBytes" xml:space="preserve"><value>o</value></data>
+  <data name="ru_UnitTeraBytes" xml:space="preserve"><value>ТБ</value></data>
+  <data name="it_Cancel" xml:space="preserve"><value>Annulli</value></data>
+  <data name="pl_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="it_GameServersStatusOk" xml:space="preserve"><value>Server di gioco disponibili.</value></data>
+  <data name="es_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="fr_CheckingNetwork" xml:space="preserve"><value>Vérification du réseau, veuillez patienter...</value></data>
+  <data name="pl_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="de_ExitMenu" xml:space="preserve"><value>Verlassen</value></data>
+  <data name="de_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="es_NatType" xml:space="preserve"><value>Su tipo de NAT es: </value></data>
+  <data name="de_ErrorKeyBanned" xml:space="preserve"><value>Ungültiger CD-Key</value></data>
+  <data name="en_GameServersStatusNOk" xml:space="preserve"><value>Game servers unavailable.</value></data>
+  <data name="de_ErrorRecoverFile" xml:space="preserve"><value>Kritischer Fehler aufgetreten. 
+
+Sollten Sie diesen Fehler zum ersten Mal sehen, starten Sie bitte neu; ansonsten bitten wir um eine Neuinstallation.</value></data>
+  <data name="es_ErrorMinimumRequirements" xml:space="preserve"><value>Vuestro sistema no cumple los requisitos mínimos.
+
+Requisitos mínimos:
+- {0} de memoria (RAM)
+- Dispositivo gráfico DirectX 9 con controlador WDDM, {1} de memoria de vídeo (VRAM), Shaders "3.0"
+
+Vuestro configurazione:
+- {2} de memoria (RAM)
+- {3} de memoria de vídeo (VRAM)</value></data>
+  <data name="es_ErrorInstallFile" xml:space="preserve"><value>Errores se produjeron en la instalación de los componentes.
+Por favor comprobar sus permisos de aceso al directorio "{0}", entonces iniciar la actualización.
+
+Si el problema persiste, contactar el apoyo técnico de Atari.</value></data>
+  <data name="es_SaveConfig" xml:space="preserve"><value>Guardar</value></data>
+  <data name="ja_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="de_ErrorGameInstall" xml:space="preserve"><value>Das Spiel konnte nicht wie vorgesehen installiert werden.
+Bitte installieren sie das Spiel erneut (über die DVD oder den heruntergeladenen Installer).
+
+Sollte das Problem fortbestehen, wenden sie sich bitte an Ataris' technischen Kundendienst.</value></data>
+  <data name="pl_SaveConfig" xml:space="preserve"><value>Zapisz</value></data>
+  <data name="zh_ErrorGameInstall" xml:space="preserve"><value>The game did not properly install on this system.
+Please try to install the game again using the installer (DVD or downloaded installer).
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="it_Error" xml:space="preserve"><value>Si è verificato un errore durante l'aggiornamento.
+Si prega di riavviare l'aggiornamento.
+
+Se il problema persiste, contattare il supporto tecnico di Atari.</value></data>
+  <data name="fr_OfflineMode" xml:space="preserve"><value>Impossible de mettre à jour le jeu. 
+
+Voulez vous jouer hors ligne ?</value></data>
+  <data name="it_Retry" xml:space="preserve"><value>Riprovi</value></data>
+  <data name="en_ErrorDiskSpace" xml:space="preserve"><value>There is not enough space on "{0}" to install the update.
+The update requires {1} more available space.</value></data>
+  <data name="de_CheckingFiles" xml:space="preserve"><value>Überprüfung der Dateien, bitte warten…</value></data>
+  <data name="es_CheckingFiles" xml:space="preserve"><value>Comprobación los archivos, por favor espere ...</value></data>
+  <data name="it_GameServersStatusNOk" xml:space="preserve"><value>Server di gioco non disponibili.</value></data>
+  <data name="ja_ErrorGameInstall" xml:space="preserve"><value>ゲームは正しくインストールされませんでした。
+インストーラー（DVD、またはダウンロードしたインストーラー）を使用して、もう一度インストールしてください。
+
+問題が解決されない場合は、Atari テクニカルサポートまでご連絡ください。</value></data>
+  <data name="de_NatType" xml:space="preserve"><value>Dein NAT ist: </value></data>
+  <data name="it_ErrorGameInstall" xml:space="preserve"><value>Il gioco non è stato installato correttamente sul sistema.
+Si prega di riprovare a installare il gioco tramite l'installer (DVD o installer scaricato).
+
+Se il problema persiste, contattare il supporto tecnico di Atari.</value></data>
+  <data name="pl_ErrorKeyBanned" xml:space="preserve"><value>Błędny klucz CD</value></data>
+  <data name="ru_ErrorRecoverFile" xml:space="preserve"><value>Произошла критическая ошибка. 
+
+Если вы видите это сообщение</value></data>
+  <data name="zh_ExitMenu" xml:space="preserve"><value>Exit</value></data>
+  <data name="ru_GameServersStatusOk" xml:space="preserve"><value>Игровые серверы доступны.</value></data>
+  <data name="it_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="de_CheckingNetwork" xml:space="preserve"><value>Überprüfung Netzwerk, bitte warten…</value></data>
+  <data name="zh_CheckingFiles" xml:space="preserve"><value>Checking files, please wait...</value></data>
+  <data name="pl_GameServersStatusNOk" xml:space="preserve"><value>Serwery gry niedostępne.</value></data>
+  <data name="de_AudioLabel" xml:space="preserve"><value>Audio</value></data>
+  <data name="fr_ErrorMinimumRequirements" xml:space="preserve"><value>Votre système ne répond pas aux exigences minimales.
+
+Configuration minimale requise :
+- {0} de mémoire système (RAM)
+- Carte vidéo compatible DirectX 9c avec pilote WDDM, {1} de mémoire vidéo (VRAM), Shaders "3.0"
+
+Votre système:
+- {2} de mémoire système (RAM)
+- {3} de mémoire vidéo (VRAM)</value></data>
+  <data name="ja_GameServersStatusOk" xml:space="preserve"><value>ゲームサーバーは、ご利用いただけます。</value></data>
+  <data name="ja_Wait" xml:space="preserve"><value>お待ちください…</value></data>
+  <data name="ja_Menu" xml:space="preserve"><value>メニュー</value></data>
+  <data name="zh_OfflineMode" xml:space="preserve"><value>Unable to update the game. 
+
+You won't be able to play the game online. 
+
+If you create an offline profile and update the game later you won't be able to play online with this profile. 
+
+Do you want to play offline?</value></data>
+  <data name="pl_OfflineMode" xml:space="preserve"><value>Nie można zaktualizować gry.
+
+Gra za pośrednictwem Internetu nie będzie możliwa.
+
+Jeśli utworzysz profil sieciowy w tym momencie, korzystając z niego gra za pośrednictwem Internetu nie będzie możliwa, nawet po aktualizacji.
+
+Czy chcesz grać w trybie offline?</value></data>
+  <data name="en_Wait" xml:space="preserve"><value>Please wait...</value></data>
+  <data name="en_Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="pl_ErrorDiskSpace" xml:space="preserve"><value>Na dysku "{0}" brak wolnego miejsca na zainstalowanie aktualizacji.
+Aktualizacja wymaga {1} więcej wolnego miejsca.</value></data>
+  <data name="de_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="ja_AudioLabel" xml:space="preserve"><value>オーディオ</value></data>
+  <data name="fr_ExitMenu" xml:space="preserve"><value>Quitter</value></data>
+  <data name="fr_UnitGigaBytes" xml:space="preserve"><value>Go</value></data>
+  <data name="fr_ErrorGameInstall" xml:space="preserve"><value>Le jeu n'est pas installé correctement sur ce système.
+S'il vous plaît ré-installez le jeu à partir du programme d'installation (DVD ou téléchargez l'installateur).
+
+Si le problème persiste après installation du jeu, contactez le support technique d'Atari.</value></data>
+  <data name="fr_ErrorInstallFile" xml:space="preserve"><value>Des erreurs se sont produites lors de l'installation des composants.
+S'il vous plaît vérifiez vos autorisations d'accès aux fichiers sur le répertoire "{0}", et de relancez la mise à jour.
+
+Si le problème persiste, contactez le support technique d'Atari.</value></data>
+  <data name="es_Error" xml:space="preserve"><value>Errores se produjeron durante la actualización.
+Por favor, reactivar la actualización.
+
+Si el problema persiste, contactar el apoyo técnico de Atari.</value></data>
+  <data name="es_Retry" xml:space="preserve"><value>Reintento</value></data>
+  <data name="pl_ErrorMinimumRequirements" xml:space="preserve"><value>System nie spełnia wymagań minimalnych.
+
+Wymagania minimalne:
+- {0} pamięci systemowej (RAM)
+- Karta graficzna zgodna z DirectX 9c ze sterownikami WDDM, {1} pamięci wideo (VRAM) i obsługą shaderów "3.0"
+
+Ten system:
+- {2} pamięci systemowej (RAM)
+- {3} pamięci wideo {VRAM}</value></data>
+  <data name="de_ErrorDiskSpace" xml:space="preserve"><value>Es ist nicht genügend Platz auf "{0}" vorhanden um ein Update zu installieren.
+Das Update benötigt {1} freien Speicher</value></data>
+  <data name="pl_Cancel" xml:space="preserve"><value>Anuluj</value></data>
+  <data name="es_ErrorRecoverFile" xml:space="preserve"><value>Se ha producido un error crítico. 
+
+Si estás viendo este mensaje por primera vez, reinicia la aplicación o reinstala el juego.</value></data>
+  <data name="fr_ErrorDiskSpace" xml:space="preserve"><value>Il n'y a pas suffisamment d'espace disque sur "{0}" pour installer les composants de la mise à jour.
+La mise à jour requiert un supplément de {1} d'espace libre.</value></data>
+  <data name="ja_CheckingNetwork" xml:space="preserve"><value>ネットワークをチェックしています、お待ちください…</value></data>
+  <data name="it_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="es_Menu" xml:space="preserve"><value>Menú</value></data>
+  <data name="es_Wait" xml:space="preserve"><value>Por favor espere ...</value></data>
+  <data name="fr_AudioLabel" xml:space="preserve"><value>Audio</value></data>
+  <data name="fr_UnitKiloBytes" xml:space="preserve"><value>ko</value></data>
+  <data name="de_GameServersStatusNOk" xml:space="preserve"><value>Spieleserver nicht verfügbar.</value></data>
+  <data name="de_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="de_No" xml:space="preserve"><value>Nein</value></data>
+  <data name="en_No" xml:space="preserve"><value>No</value></data>
+  <data name="en_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="es_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="es_No" xml:space="preserve"><value>No</value></data>
+  <data name="fr_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="fr_No" xml:space="preserve"><value>Non</value></data>
+  <data name="it_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="it_No" xml:space="preserve"><value>No</value></data>
+  <data name="en_CheckingNetwork" xml:space="preserve"><value>Checking network, please wait...</value></data>
+  <data name="ja_OK" xml:space="preserve"><value>決定</value></data>
+  <data name="ja_No" xml:space="preserve"><value>いいえ</value></data>
+  <data name="pl_No" xml:space="preserve"><value>Nie</value></data>
+  <data name="pl_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="ru_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="ru_No" xml:space="preserve"><value>Нет</value></data>
+  <data name="zh_No" xml:space="preserve"><value>No</value></data>
+  <data name="zh_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="zh_ErrorRecoverFile" xml:space="preserve"><value>A critical error has occurred. 
+
+If you are seeing this message for the first time please relaunch this application, otherwise reinstall the game.</value></data>
+  <data name="ru_ExitMenu" xml:space="preserve"><value>Выход</value></data>
+  <data name="pl_ConfigMenu" xml:space="preserve"><value>Konfiguracja</value></data>
+  <data name="ja_ErrorInstallFile" xml:space="preserve"><value>コンポーネントのインストール中にエラーが発生しました。
+"{0}"ディレクトリ上のファイルへのアクセス権を確認して、もう一度、アップデートを実行してください。
+
+問題が解決されない場合は、Atari テクニカルサポートまでご連絡ください。</value></data>
+  <data name="es_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="es_ErrorKeyBanned" xml:space="preserve"><value>Clave de CD no válida</value></data>
+  <data name="fr_GameServersStatusNOk" xml:space="preserve"><value>Serveurs de jeux indisponibles.</value></data>
+  <data name="ru_CheckingNetwork" xml:space="preserve"><value>Проверка сети. Пожалуйста, подождите...</value></data>
+  <data name="ja_OfflineMode" xml:space="preserve"><value>"ゲームのアップデートに失敗しました。
+
+オンラインではゲームをプレイできません。
+
+オフラインプロフィールを作成し、後でゲームをアップデートする場合、このプロフィールはオンラインではプレイできなくなります。
+
+オフラインのままプレイをしますか？"</value></data>
+  <data name="it_ErrorInstallFile" xml:space="preserve"><value>Si è verificato un errore durante l'installazione dei componenti.
+Si prega di verificare i permessi per l'accesso ai dati nell'elenco "{0}", in seguito riavviare l'aggiornamento.
+
+Se il problema persiste, contattare il supporto tecnico di Atari.</value></data>
+  <data name="ja_GameServersStatusNOk" xml:space="preserve"><value>ゲームサーバーは、ご利用いただけません。</value></data>
+  <data name="es_ExitMenu" xml:space="preserve"><value>Salir</value></data>
+  <data name="ru_CheckingFiles" xml:space="preserve"><value>Проверка файлов. Пожалуйста, подождите...</value></data>
+  <data name="ru_AudioLabel" xml:space="preserve"><value>Аудио</value></data>
+  <data name="it_ErrorMinimumRequirements" xml:space="preserve"><value>Il sistema non soddisfa i requisiti minimi.
+
+Requisiti minimi:
+- {0} di memoria (RAM)
+- Scheda grafica DirectX 9 con driver WDDM, {1} di memoria video (VRAM), Shaders "3.0"
+
+Vostro configuración
+- {2} di memoria (RAM)
+- {3} di memoria video (VRAM)</value></data>
+  <data name="it_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="ja_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="ja_ErrorDownloadFile" xml:space="preserve"><value>ファイルのダウンロード中にエラーが発生しました。
+インターネットへの接続を確認し、もう一度、アップデートを実行してください。
+
+問題が解決されない場合は、Atari テクニカルサポートまでご連絡ください。</value></data>
+  <data name="ru_UnitGigaBytes" xml:space="preserve"><value>ГБ</value></data>
+  <data name="en_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="fr_GameServersStatusOk" xml:space="preserve"><value>Serveurs de jeux disponibles.</value></data>
+  <data name="ja_Retry" xml:space="preserve"><value>リトライ</value></data>
+  <data name="zh_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="ru_ErrorMinimumRequirements" xml:space="preserve"><value>Ваша система не соответствует необходимым минимальным требованиям.
+
+
+
+Минимальные системные требования:
+- {0} оперативной памяти
+- DirectX 9c и WDDM, видеокарта с {1} памяти, Shaders "3.0"
+
+Ваша система:
+- {2} оперативной памяти
+- видеокарта с {3} памяти</value></data>
+  <data name="it_ErrorDownloadFile" xml:space="preserve"><value>Si è verificato un errore durante lo scaricamento dei dati.
+Si prega di verificare la connessione a Internet e riavviare l'aggiornamento.
+
+Se il problema persiste, contattare il supporto tecnico di Atari.</value></data>
+  <data name="ja_Error" xml:space="preserve"><value>アップデート中にエラーが発生しました。
+もう一度、アップデートを実行してください。
+
+問題が解決されない場合は、Atari テクニカルサポートまでご連絡ください。</value></data>
+  <data name="fr_ConfigMenu" xml:space="preserve"><value>Configuration</value></data>
+  <data name="de_Retry" xml:space="preserve"><value>Wiederholung</value></data>
+  <data name="de_Error" xml:space="preserve"><value>Ein Fehler trat beim patchen auf.
+Bitte starten sie das Update erneut.
+
+Sollte das Problem weiterhin bestehen, wenden sie sich bitte an Ataris' technischen Kundendienst.</value></data>
+  <data name="it_SaveConfig" xml:space="preserve"><value>Salva</value></data>
+  <data name="ru_Wait" xml:space="preserve"><value>Пожалуйста, подождите...</value></data>
+  <data name="ru_Menu" xml:space="preserve"><value>Меню</value></data>
+  <data name="zh_ConfigMenu" xml:space="preserve"><value>Configuration</value></data>
+  <data name="en_ExitMenu" xml:space="preserve"><value>Exit</value></data>
+  <data name="de_OfflineMode" xml:space="preserve"><value>Spiel-Update nicht möglich. 
+
+Das Spiel kann nicht mehr Online gespielt werden. 
+
+Sollten Sie ein Offline-Profil anlegen und das Spiel dadurch Patchen, können Sie später nicht mehr mit diesem Profil online spielen. 
+
+Möchten Sie Offline spielen?</value></data>
+  <data name="it_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="ru_ConfigMenu" xml:space="preserve"><value>Конфигурация</value></data>
+  <data name="pl_ErrorDownloadFile" xml:space="preserve"><value>Podczas pobierania plików wystąpił błąd.
+Proszę sprawdzić połączenie internetowe i ponownie uruchomić aktualizację.
+
+Jeśli problem będzie się powtarzał, proszę skontaktować się z działem pomocy technicznej Atari.</value></data>
+  <data name="es_ErrorDownloadFile" xml:space="preserve"><value>Errores se produjeron durante el cobro a distancia de ficheros.
+Comprobar la conexión a internet y reactivar la actualización
+
+Si el problema persiste, contactar el apoyo técnico de Atari.</value></data>
+  <data name="fr_UnitTeraBytes" xml:space="preserve"><value>To</value></data>
+  <data name="zh_ErrorDownloadFile" xml:space="preserve"><value>An error occurred while downloading files.
+Please check your Internet connection and restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="en_AudioLabel" xml:space="preserve"><value>Audio</value></data>
+  <data name="ja_Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="zh_ErrorDiskSpace" xml:space="preserve"><value>There is not enough space on "{0}" to install the update.
+The update requires {1} more available space.</value></data>
+  <data name="en_NatType" xml:space="preserve"><value>Your NAT type is: </value></data>
+  <data name="ex_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="en_ErrorGameInstall" xml:space="preserve"><value>The game did not properly install on this system.
+Please try to install the game again using the installer (DVD or downloaded installer).
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="en_OfflineMode" xml:space="preserve"><value>Unable to update the game. 
+
+You won't be able to play the game online. 
+
+If you create an offline profile and update the game later you won't be able to play online with this profile. 
+
+Do you want to play offline?</value></data>
+  <data name="ja_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="zh_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="es_GameServersStatusOk" xml:space="preserve"><value>Servidores de juego disponibles.</value></data>
+  <data name="it_ExitMenu" xml:space="preserve"><value>Esci</value></data>
+  <data name="pl_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="de_Yes" xml:space="preserve"><value>Ja</value></data>
+  <data name="en_SaveConfig" xml:space="preserve"><value>Save</value></data>
+  <data name="pl_CheckingFiles" xml:space="preserve"><value>Proszę czekać, trwa sprawdzanie plików...</value></data>
+  <data name="ru_ErrorDiskSpace" xml:space="preserve"><value>Для установки обновления недостаточно места на "{0}".
+Для обновления требуется еще {1} свободного места".</value></data>
+  <data name="en_Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="es_Yes" xml:space="preserve"><value>Sí</value></data>
+  <data name="en_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="ja_ErrorKeyBanned" xml:space="preserve"><value>無効なCDキー</value></data>
+  <data name="es_CheckingNetwork" xml:space="preserve"><value>Comprobación de la red, por favor espere ...</value></data>
+  <data name="es_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="ja_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="ru_ErrorKeyBanned" xml:space="preserve"><value>неверный CD-код</value></data>
+  <data name="zh_ErrorMinimumRequirements" xml:space="preserve"><value>Your system does not meet the minimum requirements.
+
+Minimum Requirements:
+- {0} of system memory (RAM)
+- DirectX 9c graphics device with WDDM, {1} of video memory (VRAM), Shaders "3.0"
+
+Your system:
+- {2} of system memory (RAM)
+- {3} of video memory (VRAM)</value></data>
+  <data name="ja_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="pl_ErrorGameInstall" xml:space="preserve"><value>Gra nie została prawidłowo zainstalowana.
+Proszę zainstalować grę ponownie za pomocą instalatora (z płyty DVD lub pobranym instalatorem).
+
+Jeśli problem będzie się powtarzał, proszę skontaktować się z działem pomocy technicznej Atari.</value></data>
+  <data name="fr_Cancel" xml:space="preserve"><value>Annuler</value></data>
+  <data name="es_UnitKiloBytes" xml:space="preserve"><value>kB</value></data>
+  <data name="it_AudioLabel" xml:space="preserve"><value>Audio</value></data>
+  <data name="fr_Yes" xml:space="preserve"><value>Oui</value></data>
+  <data name="ru_ErrorInstallFile" xml:space="preserve"><value>При установке компонентов произошла ошибка.
+Убедитесь, что у вас есть полномочия, необходимые для доступа к файлам в директории "{0}", и начните обновление еще раз.
+
+Если проблема остается, свяжитесь со службой технической поддержки Atari.</value></data>
+  <data name="pl_ErrorRecoverFile" xml:space="preserve"><value>Wystąpił błąd krytyczny. 
+
+Jeśli widzisz ten komunikat po raz pierwszy, uruchom ponownie aplikację. W przeciwnym wypadku należy ponownie zainstalować grę.</value></data>
+  <data name="ja_ExitMenu" xml:space="preserve"><value>終了</value></data>
+  <data name="es_GameServersStatusNOk" xml:space="preserve"><value>Servidores de juego no disponibles.</value></data>
+  <data name="pl_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="en_ErrorKeyBanned" xml:space="preserve"><value>Invalid CDKey</value></data>
+  <data name="ja_ConfigMenu" xml:space="preserve"><value>コンフィグ</value></data>
+  <data name="en_ErrorRecoverFile" xml:space="preserve"><value>A critical error has occurred. 
+
+If you are seeing this message for the first time please relaunch this application, otherwise reinstall the game.</value></data>
+  <data name="ja_SaveConfig" xml:space="preserve"><value>セーブ</value></data>
+  <data name="pl_GameServersStatusOk" xml:space="preserve"><value>Serwery gry dostępne.</value></data>
+  <data name="zh_UnitGigaBytes" xml:space="preserve"><value>GB</value></data>
+  <data name="ja_ErrorDiskSpace" xml:space="preserve"><value>"{0}"には、アップデートをインストールするために充分な空きスペースがありません。
+このアップデートには、{1}以上の空き容量が必要です。</value></data>
+  <data name="fr_Error" xml:space="preserve"><value>Des erreurs se sont produites au cours de la mise à jour.
+S'il vous plaît relancez la mise à jour.
+
+Si le problème persiste, contactez le support technique d'Atari.</value></data>
+  <data name="fr_Retry" xml:space="preserve"><value>Réessayer</value></data>
+  <data name="it_Yes" xml:space="preserve"><value>Sì</value></data>
+  <data name="de_ConfigMenu" xml:space="preserve"><value>Konfiguration</value></data>
+  <data name="ja_ErrorRecoverFile" xml:space="preserve"><value>"重大なエラーが発生しました。
+
+このメッセージを初めてみた場合は、ゲームを再起動してください。そうでない場合はゲームを再インストールしてください"</value></data>
+  <data name="zh_CheckingNetwork" xml:space="preserve"><value>Checking network, please wait...</value></data>
+  <data name="zh_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="de_UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="es_AudioLabel" xml:space="preserve"><value>Sonido</value></data>
+  <data name="en_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="pl_UnitTeraBytes" xml:space="preserve"><value>TB</value></data>
+  <data name="de_ErrorInstallFile" xml:space="preserve"><value>Es wurde ein Fehler bei der Installation festgestellt.
+Bitte überprüfen sie ihre Zugriffsrechte im Verzeichnis "{0}" und starten sie das Update erneut.
+
+Sollte das Problem fortbestehen, wenden sie sich bitte an Ataris' technischen Kundendienst.</value></data>
+  <data name="en_Retry" xml:space="preserve"><value>Retry</value></data>
+  <data name="en_Error" xml:space="preserve"><value>An error occurred while updating.
+Please restart the update.
+
+If the problem persists, contact Atari technical support.</value></data>
+  <data name="ja_Yes" xml:space="preserve"><value>はい</value></data>
+  <data name="fr_UnitMegaBytes" xml:space="preserve"><value>Mo</value></data>
+  <data name="fr_Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="fr_Wait" xml:space="preserve"><value>Veuillez patienter...</value></data>
+  <data name="de_UnitMegaBytes" xml:space="preserve"><value>MB</value></data>
+  <data name="es_ErrorDiskSpace" xml:space="preserve"><value>No hay suficiente espacio en "{0}" para instalar  la actualización.
+La actualización requiere {1} de espacio libre suplementario.</value></data>
+  <data name="pl_Yes" xml:space="preserve"><value>Tak</value></data>
+  <data name="ru_GameServersStatusNOk" xml:space="preserve"><value>Игровые серверы недоступны.</value></data>
+  <data name="es_ErrorGameInstall" xml:space="preserve"><value>El juego no esta instalado correctamente sobre este sistema.
+Intentar instalar el juego otra vez usando el instalador  (DVD o instalador descargado).
+
+Si el problema persiste, contactar el apoyo técnico de Atari.</value></data>
+  <data name="pl_ErrorInstallFile" xml:space="preserve"><value>Podczas sprawdzania składników wystąpił błąd.
+Proszę sprawdzić uprawnienia dostępu do plików w folderze "{0}", po czym ponownie uruchomić aktualizację.
+
+Jeśli problem będzie się powtarzał, proszę skontaktować się z działem pomocy technicznej Atari.</value></data>
+  <data name="ru_UnitBytes" xml:space="preserve"><value>б</value></data>
+  <data name="ru_Yes" xml:space="preserve"><value>Да</value></data>
+  <data name="it_ErrorDiskSpace" xml:space="preserve"><value>Non c'è abbastanza spazio su "{0}" per installare l'aggiornamento.
+L'aggiornamento richiede {1} di spazio libero.</value></data>
+  <data name="pl_CheckingNetwork" xml:space="preserve"><value>Proszę czekać, trwa sprawdzanie sieci...</value></data>
+  </root>
